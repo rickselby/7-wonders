@@ -1,0 +1,133 @@
+
+@font-face {
+	font-family: 'Cafeteria';
+	src: url("/style/Cafeteria-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Cafeteria';
+	font-weight: bold;
+	src: url("/style/Cafeteria-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Cafeteria Black';
+	src: url("/style/Cafeteria-Black.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Possum Saltare';
+	src: url("/style/PossumSaltareNF.ttf") format("truetype");
+}
+
+body {
+	font-family: 'Cafeteria';
+	font-size: large;
+}
+
+H1, H2 {
+	font-family: 'Possum Saltare';
+	text-transform: uppercase;
+}
+
+H1 {
+	margin-top: 0;
+}
+
+TABLE.centre TH, TABLE.centre TD {
+	text-align: center;
+}
+
+TABLE.borders {
+	border-collapse: collapse;
+}
+
+TABLE.borders TH, TABLE.borders TD {
+	border: 1px solid black;
+	padding : 2px 5px;
+}
+
+TABLE TD.submit {
+	text-align: right;
+}
+
+LABEL {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+FIELDSET DIV {
+	padding: 0.1em 0;
+}
+
+P.message, UL.message {
+	border: 1px solid black;
+	padding: 1em;
+}
+
+TD.points {
+	font-weight: bold;
+}
+
+DIV.footer {
+	clear: both;
+	border-top:  ridge;
+	margin-top: 1em;
+	padding-top: 0.5em;
+}
+
+/*
+ * Table layout when showing mutiple tables
+ */
+TR#tableLayoutCells > TD {
+	vertical-align: top;
+}
+
+/*
+ * Pages in Display Window
+ */
+
+BODY.display {
+	text-align: center;
+}
+
+BODY.display > TABLE {
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+BODY.display IMG {
+	float: left;
+}
+
+BODY.display H1 {
+	margin-bottom: 0em;
+}
+
+BODY.display H2 {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+/*
+ * Round Set Up page
+ */
+
+TABLE#playerList {
+	float: left;
+	margin-right: 1em;
+}
+
+DIV.totalPlayers {
+	margin: 0.2em 0;
+	font-weight: bold;
+}
+
+/*
+ * Seating Chart
+ */
+TABLE.seating {
+	margin: 0.5em;
+}
